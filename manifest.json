@@ -1,0 +1,25 @@
+{
+  "name": "PescaCosta AI",
+  "short_name": "PescaCosta",
+  "description": "App informativa per la pesca sportiva lungo le coste italiane: 452 spot, meteo-marino, mappa e diario catture.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0b1220",
+  "theme_color": "#0b1220",
+  "icons": [
+    {
+      "src": "icon_192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon_512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

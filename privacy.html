@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy Policy — PescaCosta AI</title>
+<meta name="description" content="Privacy Policy di PescaCosta AI, app informativa gratuita per la pesca sportiva in Italia.">
+<meta name="robots" content="index,follow">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{background:#f8fafc;color:#0f172a;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;line-height:1.65;font-size:16px;-webkit-font-smoothing:antialiased}
+.wrap{max-width:760px;margin:0 auto;padding:32px 22px 60px}
+header{border-bottom:2px solid #e2e8f0;padding-bottom:20px;margin-bottom:28px}
+h1{font-size:28px;font-weight:700;color:#0f172a;letter-spacing:-.02em;margin-bottom:6px;line-height:1.25}
+.subtitle{font-size:14px;color:#64748b;font-weight:500}
+h2{font-size:20px;font-weight:650;color:#0f172a;margin:32px 0 12px;letter-spacing:-.015em;line-height:1.3;padding-top:8px}
+h3{font-size:16px;font-weight:650;color:#1e40af;margin:20px 0 8px;letter-spacing:-.01em}
+p{margin-bottom:12px;color:#1e293b}
+ul,ol{margin:8px 0 14px 26px}
+li{margin-bottom:6px;color:#1e293b}
+strong{font-weight:650;color:#0f172a}
+a{color:#1d4ed8;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:2px}
+a:hover{color:#1e40af}
+.box{background:#fff;border:1px solid #e2e8f0;border-left:3px solid #3b82f6;padding:14px 18px;border-radius:8px;margin:14px 0}
+.box-warn{background:#fffbeb;border-left-color:#d97706}
+.box-info{background:#eff6ff;border-left-color:#3b82f6}
+dl{margin:12px 0 16px}
+dt{font-weight:650;color:#0f172a;margin-top:12px;font-size:15px}
+dd{margin-left:0;color:#475569;font-size:15px;margin-top:2px;line-height:1.6}
+.tag{display:inline-block;background:#dbeafe;color:#1e40af;padding:2px 9px;border-radius:6px;font-size:12px;font-weight:600;letter-spacing:.02em}
+footer{margin-top:48px;padding-top:24px;border-top:1px solid #e2e8f0;font-size:13px;color:#64748b;text-align:center}
+footer a{color:#475569}
+.contact-block{background:#f1f5f9;border:1px solid #cbd5e1;border-radius:10px;padding:16px 18px;margin:16px 0;font-size:14.5px}
+.placeholder{background:#fef3c7;color:#92400e;padding:2px 6px;border-radius:4px;font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:13px;font-weight:600}
+@media (max-width:560px){
+  .wrap{padding:20px 16px 50px}
+  h1{font-size:24px}
+  h2{font-size:18px;margin-top:26px}
+  h3{font-size:15.5px}
+  body{font-size:15px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+<h1>🔒 Privacy Policy</h1>
+<div class="subtitle">PescaCosta AI · Versione 1.0 · Aggiornata il 27 maggio 2026</div>
+</header>
+
+<p>Questa Privacy Policy descrive come la web app gratuita <strong>PescaCosta AI</strong> (di seguito "l'app") tratta i dati. È redatta in conformità al Regolamento UE 2016/679 (GDPR) e al D.Lgs. 196/2003 ("Codice Privacy") come modificato dal D.Lgs. 101/2018.</p>
+
+<div class="box box-info">
+<strong>In una frase:</strong> tutti i tuoi dati personali restano sul tuo dispositivo. L'app non li raccoglie, non li trasmette, non li condivide. Le uniche cose che escono dal tuo telefono sono le coordinate geografiche, inviate via HTTPS a servizi terzi pubblici (meteo e mappe) per farti vedere la mappa e il meteo del posto dove sei.
+</div>
+
+<h2>1. Titolare del trattamento</h2>
+
+<div class="contact-block">
+<strong>Titolare:</strong> PescaCosta<br>
+<strong>Email di contatto:</strong> Support.EssentialApp@proton.me<br>
+<strong>Ruolo:</strong> Sviluppatore individuale dell'app, distribuita gratuitamente come progetto personale senza scopo di lucro.
+</div>
+
+<p style="font-size:13px;color:#64748b;font-style:italic">Per esercitare i tuoi diritti GDPR (vedi sezione 8), scrivi all'email sopra indicata o usa direttamente la sezione "🛡️ I tuoi dati" all'interno dell'app, che ti permette di esportare o cancellare tutti i dati con un click.</p>
+
+<h2>2. Quali dati restano sul tuo dispositivo</h2>
+
+<p>L'app salva nel <strong>localStorage del browser</strong> sul tuo telefono i seguenti dati. <strong>Nessuno di questi dati viene mai trasmesso al Titolare</strong> né a terzi.</p>
+
+<dl>
+<dt>📓 Catture e log</dt>
+<dd>Specie, taglia, peso, data, note, indicatore catch &amp; release. Chiave: <code>pc_logs</code></dd>
+
+<dt>📷 Foto delle catture</dt>
+<dd>Compresse JPEG 60%, max 600px lato lungo. Salvate come data-URL base64 nel localStorage. Chiave: <code>pc_photos</code></dd>
+
+<dt>⭐ Preferiti</dt>
+<dd>Lista degli ID degli spot marcati come preferiti. Chiave: <code>pc_favs</code></dd>
+
+<dt>✨ Spot personalizzati</dt>
+<dd>Spot creati dall'utente con coordinate e parcheggio. Chiave: <code>pc_custom_spots</code></dd>
+
+<dt>📐 Correzioni coordinate</dt>
+<dd>Eventuali aggiornamenti manuali delle coordinate degli spot. Chiave: <code>pc_coords</code></dd>
+
+<dt>🌙 Preferenza tema</dt>
+<dd>Modalità chiara o scura selezionata manualmente. Chiave: <code>pc_theme</code></dd>
+</dl>
+
+<p>Tutti questi dati sono cancellabili in qualsiasi momento dalla sezione "🛡️ I tuoi dati" all'interno dell'app, oppure cancellando i dati del browser dalle impostazioni di sistema.</p>
+
+<h2>3. Geolocalizzazione</h2>
+
+<p>L'app utilizza la <strong>Geolocation API</strong> del browser per:</p>
+<ul>
+<li>Mostrarti gli spot di pesca più vicini</li>
+<li>Calcolare le distanze</li>
+<li>Fornire meteo e suggerimenti AI relativi alla tua zona</li>
+<li>Aggiornare le coordinate degli spot quando sei sul posto</li>
+</ul>
+
+<p>La posizione viene richiesta solo dopo che hai concesso il permesso esplicito al browser. <strong>La tua posizione non è mai archiviata in modo persistente</strong> dall'app, né trasmessa al Titolare. Le coordinate sono inviate via HTTPS soltanto ai servizi terzi indicati nella sezione 4, e solo per la durata della richiesta.</p>
+
+<p>Puoi revocare il permesso di geolocalizzazione in qualsiasi momento dalle impostazioni del browser o del sistema operativo.</p>
+
+<h2>4. Servizi terzi</h2>
+
+<p>Per fornire le funzionalità di mappa, meteo e recupero automatico spot, l'app effettua richieste HTTPS ai seguenti servizi pubblici. <strong>Vengono inviati solo dati tecnici essenziali</strong> (coordinate, IP, User-Agent del browser): nessun dato personale identificativo.</p>
+
+<dl>
+<dt>🌤️ Open-Meteo</dt>
+<dd>API meteo e marina gratuita. Riceve: latitudine, longitudine. <a href="https://open-meteo.com/en/terms">Termini e privacy</a> · <a href="https://open-meteo.com/en/licence">Licenza dati CC BY 4.0</a></dd>
+
+<dt>🗺️ CARTO Basemaps</dt>
+<dd>Fornisce le immagini (tile) della mappa interattiva. Riceve: coordinate dei tile visualizzati, IP. <a href="https://carto.com/privacy">Privacy CARTO</a></dd>
+
+<dt>📍 OpenStreetMap (Nominatim, Overpass)</dt>
+<dd>Reverse geocoding e ricerca punti di interesse (parcheggi, servizi). Utilizzati solo quando l'utente attiva il recupero automatico dati per uno spot personalizzato. Riceve: coordinate, IP. <a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy">Privacy OSMF</a> · Dati distribuiti sotto licenza <a href="https://opendatacommons.org/licenses/odbl/">ODbL</a></dd>
+</dl>
+
+<p>Tutte le comunicazioni con questi servizi avvengono esclusivamente tramite <strong>HTTPS cifrato</strong>.</p>
+
+<h2>5. Cosa l'app NON fa</h2>
+
+<ul>
+<li>❌ Non utilizza Firebase Analytics, Google Analytics, AdMob, Facebook SDK o qualsiasi altro sistema di tracking</li>
+<li>❌ Non mostra pubblicità di alcun tipo</li>
+<li>❌ Non vende, condivide o monetizza i tuoi dati</li>
+<li>❌ Non utilizza cookie di tracciamento</li>
+<li>❌ Non crea account né richiede registrazione</li>
+<li>❌ Non chiede mai dati identificativi (nome, email, telefono)</li>
+<li>❌ Non condivide la tua posizione con altri utenti o con il Titolare</li>
+</ul>
+
+<h2>6. Funzione "Condividi spot" via WhatsApp</h2>
+
+<p>L'app permette di condividere gli spot personalizzati che hai creato tramite WhatsApp, generando un codice testuale <code>[PCSPOT:...]</code> che racchiude le informazioni dello spot.</p>
+
+<ul>
+<li>Il codice viaggia direttamente nel messaggio WhatsApp tra te e il destinatario: <strong>nessun server intermedio</strong>.</li>
+<li>Il codice non contiene mai i tuoi dati personali (catture, foto, log).</li>
+<li>Sei tu a decidere se e quando inviare il codice e a chi.</li>
+</ul>
+
+<h2>7. App destinata a maggiorenni</h2>
+
+<p>PescaCosta AI è destinata <strong>esclusivamente a utenti maggiorenni (18+)</strong>. La pesca in mare comporta rischi reali (cadute, onde, sicurezza in scogliera) e richiede capacità di valutazione autonoma. Al primo avvio è richiesta una dichiarazione di maggiore età.</p>
+
+<p>L'app non è progettata per essere utilizzata da minori e non raccoglie consapevolmente dati di minori.</p>
+
+<h2>8. I tuoi diritti GDPR</h2>
+
+<p>In conformità agli articoli 15-22 del Regolamento UE 2016/679, hai diritto a:</p>
+
+<dl>
+<dt>Accesso (art. 15)</dt>
+<dd>Visualizzare tutti i dati salvati nell'app dalle varie schermate.</dd>
+
+<dt>Rettifica (art. 16)</dt>
+<dd>Modificare catture, foto, spot personalizzati e qualsiasi altro dato direttamente nell'app.</dd>
+
+<dt>Cancellazione (art. 17, "diritto all'oblio")</dt>
+<dd>Cancellare tutti i dati con un click dalla sezione "🛡️ I tuoi dati", oppure disinstallando l'app o cancellando i dati del browser.</dd>
+
+<dt>Limitazione (art. 18)</dt>
+<dd>Disattivare la geolocalizzazione dalle impostazioni di sistema mantenendo le altre funzioni.</dd>
+
+<dt>Portabilità (art. 20)</dt>
+<dd>Esportare tutti i dati in formato JSON dalla sezione "🛡️ I tuoi dati".</dd>
+
+<dt>Opposizione (art. 21)</dt>
+<dd>Smettere di utilizzare l'app in qualsiasi momento, senza alcuna conseguenza.</dd>
+
+<dt>Reclamo (art. 77)</dt>
+<dd>Presentare reclamo al <a href="https://www.garanteprivacy.it">Garante per la protezione dei dati personali</a> (Piazza Venezia 11, 00187 Roma).</dd>
+</dl>
+
+<h2>9. Base giuridica del trattamento</h2>
+
+<p>La maggior parte dei dati resta sul tuo dispositivo e non costituisce trattamento da parte del Titolare. Per le richieste a servizi terzi (meteo, mappe), la base giuridica è il <strong>consenso</strong> implicito derivante dall'uso volontario delle funzionalità dell'app (art. 6(1)(a) GDPR) e l'<strong>esecuzione del servizio</strong> che l'utente ha scelto di utilizzare (art. 6(1)(b) GDPR).</p>
+
+<h2>10. Trasferimenti extra-UE</h2>
+
+<p>I server di Open-Meteo e dei mirror di Nominatim sono situati in Europa. CARTO ha server in più regioni; per il servizio di tile, il provider applica standard di sicurezza adeguati. Nessun dato personale identificativo viene comunque trasmesso a questi servizi.</p>
+
+<h2>11. Conservazione dei dati</h2>
+
+<p>I dati salvati sul tuo dispositivo persistono finché:</p>
+<ul>
+<li>Non li cancelli manualmente dall'app o dal browser</li>
+<li>Non disinstalli l'app o cancelli i dati del browser</li>
+<li>Non cambi dispositivo (i dati non si sincronizzano automaticamente)</li>
+</ul>
+
+<p>Il Titolare non conserva alcun dato personale degli utenti.</p>
+
+<h2>12. Modifiche a questa Privacy Policy</h2>
+
+<p>Eventuali modifiche significative a questa policy saranno pubblicate su questa pagina con aggiornamento della data in cima. Si raccomanda di consultarla periodicamente.</p>
+
+<h2>13. Disclaimer e responsabilità</h2>
+
+<div class="box box-warn">
+<strong>⚠️ Avvertenza importante:</strong> PescaCosta AI è un'app <strong>informativa gratuita</strong> distribuita "così com'è" (<em>as is</em>). Tutti i dati (spot, meteo, normative, taglie minime, score AI) sono <strong>indicativi</strong> e non sostituiscono le fonti ufficiali (Capitaneria di Porto, MASAF, bollettini meteo professionali, regolamenti AMP). L'utilizzo è a esclusivo rischio dell'utente. Per dettagli completi consulta la sezione "📜 Termini ed Esclusione di Responsabilità" all'interno dell'app.
+</div>
+
+<h2>14. Contatti</h2>
+
+<div class="contact-block">
+Per qualsiasi domanda relativa a questa Privacy Policy o per esercitare i tuoi diritti GDPR:<br><br>
+📧 Support.EssentialApp@proton.me
+<br><br>
+<small style="color:#64748b">Trattandosi di un progetto personale gratuito gestito nel tempo libero, le risposte non sono garantite ma le email vengono lette. Per la cancellazione immediata dei dati personali non occorre contattarci: usa la sezione "🛡️ I tuoi dati" nell'app.</small>
+</div>
+
+<footer>
+© 2026 PescaCosta — Tutti i diritti riservati<br>
+<a href="./">Torna all'app</a>
+</footer>
+
+</div>
+</body>
+</html>
